@@ -1,0 +1,145 @@
+h1, h2
+{
+	color: #990033;
+}
+
+p
+{
+	font-size: 20px;
+}
+
+article
+{
+	margin-top: 20px;
+}
+
+table
+{
+	border: solid 1px gray;
+	border-collapse: collapse;
+}
+
+table td
+{
+	border: solid 1px gray;	
+	padding: 8px;
+}
+
+table td img
+{
+	border-radius: 10px;
+}
+
+header 
+{
+	background-color: #CCCC99;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.header-container
+{	
+	display: flex;
+	justify-content: space-between;
+	padding: 8px;
+}
+
+header img
+{
+	width: 100px;
+	border-radius: 10px;
+}
+
+.menu-principal
+{
+	position: fixed;
+	top: 7px;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: row wrap;	
+	list-style: none;
+	background: #990033;
+	margin-top: 150px;
+}
+
+.menu-principal a
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+
+.menu-principal a:hover
+{
+	background-color: #666633;
+}
+
+.menu-principal a.menu-principal-seleccionado
+{
+	background-color: #666633;
+}
+
+main
+{
+	min-height: 400px;
+	margin-top: 210px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+footer
+{
+	margin-top: 14px;
+	text-align: center;
+	background-color: #666633;
+	padding: 6px;
+}
+
+footer p
+{
+	color: white;
+	font-size: 14px;
+}
+
+footer .p-unir
+{
+	font-weight: bold;
+}
+
+footer .p-date
+{
+	color: black;
+}
+
+aside, #aviso_covid
+{
+	margin: 20px 0px;
+	color: red;
+}
+
+#contacto
+{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+#contacto div
+{
+	margin-bottom: 10px;
+}
+
+#contacto div input, select, textarea
+{
+	width: 100%;
+}
+
+#contacto div input[type=submit]
+{
+	width: 10%;
+}
